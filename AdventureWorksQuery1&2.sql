@@ -5,7 +5,7 @@ SELECT TOP (1000) [BusinessEntityID]
       ,[OrganizationLevel]
       ,[JobTitle]
       ,[BirthDate]
-      ,[MaritalStatus]
+      ,[MaritalStatus]gi
       ,[Gender]
       ,[HireDate]
       ,[SalariedFlag]

@@ -1,0 +1,1 @@
+select FirstName, LastName, BusinessEntityID as Employee_Id from Person.Person order by LastName asc

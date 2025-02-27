@@ -1,0 +1,1 @@
+select customerid, SUM(Freight) from [Sales].[SalesOrderHeader] group by CustomerID order by CustomerID asc

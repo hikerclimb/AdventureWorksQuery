@@ -1,0 +1,1 @@
+select ProductID, ProductNumber, Name from Production.Product where SellStartDate is not NULL and ProductLine = 'T' order by Name

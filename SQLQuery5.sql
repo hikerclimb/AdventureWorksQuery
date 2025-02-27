@@ -1,0 +1,1 @@
+select salesorderid, CustomerID, OrderDate, subtotal, TaxAmt*100/SubTotal as tax_percentage from [Sales].[SalesOrderHeader]
