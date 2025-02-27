@@ -1,0 +1,1 @@
+select SUM(Quantity) as total_Quantity from Production.ProductInventory group by LocationID *10;

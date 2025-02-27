@@ -1,0 +1,1 @@
+select ProductID, SUM(quantity) from Production.ProductInventory where Shelf = 'A' or Shelf = 'C' or Shelf = 'H' group by ProductID

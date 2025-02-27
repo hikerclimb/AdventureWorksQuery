@@ -1,0 +1,1 @@
+select CustomerID,  SalesPersonID, AVG(SubTotal), SUM(SubTotal) from Sales.SalesOrderHeader where SalesPersonID is not null group by CustomerID, SalesPersonID order by CustomerID desc
