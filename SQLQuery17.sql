@@ -1,0 +1,1 @@
+select YEAR(orderdate) as year, SUM(totaldue) as Order_Amount from Sales.SalesOrderHeader group by YEAR(OrderDate) order by Year(OrderDate) asc

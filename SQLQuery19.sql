@@ -1,0 +1,1 @@
+select ContactTypeID, name from Person.ContactType where name like '%Manager' order by ContactTypeID desc

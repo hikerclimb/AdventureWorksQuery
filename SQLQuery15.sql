@@ -1,0 +1,1 @@
+select locationid, SUM(Quantity) as TotalQuantity from Production.ProductInventory group by grouping sets(LocationID, ())
