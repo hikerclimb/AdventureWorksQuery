@@ -1,0 +1,2 @@
+select CAST(RateChangeDate as VARCHAR(10)) AS FromDate, LastName + ', ' + FirstName + ' ' +  MiddleName as fullname, rate* 40 as salaryinaweek from HumanResources.EmployeePayHistory eph join Person.Person p on eph.BusinessEntityID = p.BusinessEntityID
+where LastName is not null and MiddleName is not null and FirstName is not null order by fullname asc 

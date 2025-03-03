@@ -1,0 +1,2 @@
+select ct.ContactTypeID, name ,count(personid) as nocontacts from Person.BusinessEntityContact bec join Person.ContactType ct on ct.contacttypeid = bec.contacttypeid
+group by name, ct.ContactTypeID having count(PersonID) > 100 
