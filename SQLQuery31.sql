@@ -1,0 +1,1 @@
+select LastName, FirstName from Person.Person where LastName LIKE 'R%' order by FirstName asc, LastName desc

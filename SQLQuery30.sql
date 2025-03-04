@@ -1,0 +1,1 @@
+select businessentityid, JobTitle, HireDate from HumanResources.Employee order by HireDate asc
