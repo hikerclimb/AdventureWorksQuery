@@ -1,0 +1,1 @@
+select departmentid, name, GroupName from HumanResources.Department order by DepartmentID offset 10 rows
