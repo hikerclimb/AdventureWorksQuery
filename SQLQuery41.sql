@@ -1,0 +1,1 @@
+select name, BusinessEntityID from Sales.SalesTerritory st right outer join Sales.SalesPerson sp on st.TerritoryID = sp.TerritoryID
