@@ -1,0 +1,1 @@
+select salespersonid, COUNT(SalesPersonID) as totalsales, YEAR(OrderDate) as salesyear from Sales.SalesOrderHeader group by YEAR(OrderDate), SalesPersonID having SalesPersonID is not null order by SalesPersonID, salesyear;
