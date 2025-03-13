@@ -1,0 +1,1 @@
+select name, color from Production.Product where name like '%Mountain%' and name like '%Black%%'

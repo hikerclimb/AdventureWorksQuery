@@ -1,0 +1,1 @@
+select name, listprice from Production.Product where ListPrice = 80.99 and name like '%Mountain%'

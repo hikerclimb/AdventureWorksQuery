@@ -1,0 +1,2 @@
+select AddressLine1, AddressLine2, City, PostalCode, CountryRegionCode from Person.Address a join Person.StateProvince sp
+on a.StateProvinceID = sp.StateProvinceID where city like 'Pa%' and CountryRegionCode not in ('US')

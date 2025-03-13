@@ -1,0 +1,1 @@
+select top 20 jobtitle, hiredate from HumanResources.Employee order by HireDate desc

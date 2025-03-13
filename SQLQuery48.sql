@@ -1,0 +1,1 @@
+select productphotoid, thumbnailphoto from Production.ProductPhoto where LargePhotoFileName like '%green_%'
